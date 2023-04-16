@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.head{
+    background-color: #333;
+    width: 100%;
+    font-family: cursive;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+    align-items: center;
+    color: antiquewhite;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.navItem{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.nvaLink{
+    text-decoration: none;
+    color: bisque;
+}
+
+.nvaLink:hover{
+   color:aliceblue
+}
